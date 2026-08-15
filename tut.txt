@@ -1,0 +1,18 @@
+/*
+this is how to comment all together
+Rust compiler rustc turns all thr rust code into binary numbers. Which means anyone can run it even without  rust installed.
+to compile and run at the same time we use cargo run at the terminal
+
+cargo.toml = text file that contains info about the project.
+cargo.toml installs dependencies, compiles and runs. A handy tool that makes rust easier.
+cargo commands:
+1. cargo build: compiles the code
+2. ./target/debug/main: runs the program without looking it its compiled or not
+3. cargo run: compiles and runs the program
+4. cargo check: checks if there are any errors or syntax issues
+5. cargo new xxx = creates new project named `xxx`
+*/
+//crates are rust libraries
+//to install crates we write the name and version of the crate under the cargo.toml file. It instantly installs the crate
+//or easily type cargo add xxx in the terminal.  Adds it to the toml file automatic and downloads it.
+//random range crate
